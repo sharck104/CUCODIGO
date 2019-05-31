@@ -1,0 +1,23 @@
+div[name]{
+    border-style: dotted;
+    border-width: 3px;
+    border-color: blue;
+    border-radius: 15px;
+}
+#padreDiv + div{
+    border-style: dashed;
+    border-style: 2px;
+    border-style: red;
+    border-radius: 5px
+}
+/* hacer referecia a los hijos inmediatos */
+#padreDiv > div{
+    font-family:sans-serif;
+    font-weight:bold;
+    border-style:dashed;
+    border-color:green;
+}
+body{
+    background: gray !important;
+}
+

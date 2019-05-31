@@ -1,0 +1,19 @@
+apply plugin: 'com.android.application'
+
+dependencies {
+    implementation project(':library')
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+}
+
+android {
+    compileSdkVersion parent.ext.targetSdkVersion
+    buildToolsVersion parent.ext.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion parent.ext.targetSdkVersion
+        versionCode 1
+        versionName parent.ext.versionName
+    }
+}

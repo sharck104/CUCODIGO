@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <p>
+            <!-- un input es un campo de entrada -->
+            <label for="nom">Nombre: </label>
+            <input type="text" required minlength="10" maxlength="15" placeholder="Ejem: Juan" id="nom" />
+        </p>
+        <p>
+            <label for="ape">Apellido: </label>
+            <input type="text" required minlength="10" maxlength="15" placeholder="Ejem: Segundo" id="ape" />
+        </p>
+        <p>
+            <label for="ema">Email: </label>
+            <input type="email" required placeholder="Ejem: asd@hotmail.com" id="ema" />
+        </p>
+        <p>
+            <label for="eda">Edad: </label>
+            <input type="number" required min="17" max="60" placeholder="0" step="1" value="18" id="eda" />
+        </p>
+        <p>
+            <label>Fecha de Nacimiento: </label>
+            <input type="date" />
+        </p>
+        <p>
+            <label for="con">Contraseña: </label>
+            <input type="password" required placeholder="*********" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Debe contener al menos 1 número y 1 
+                letra mayúscula y minúscula, y al menos 8 o más caracteres" id="con" />
+        </p>
+        <p>
+            <label for="tel">Telefono: </label>
+            <input type="tel" required placeholder="Ejemplo: 1233456789" id=tel />
+        </p>
+        <p>
+            <label>Color Favorito: </label>
+            <input type="color" value="#BB0000" />
+        </p>
+        <p>
+            <!-- submit => envia el formulario -->
+            <input type="submit" value="Guardar" />
+        </p>
+
+    </form>
+
+</body>
+
+</html>

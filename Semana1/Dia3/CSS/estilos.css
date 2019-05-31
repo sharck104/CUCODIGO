@@ -1,0 +1,31 @@
+header, nav{
+    background: purple;
+    color: white;
+}
+p{
+    background: green;
+    color: white;
+}
+h2{
+    background: red;
+    color: yellow;
+}
+body{
+    background: skyblue    
+}
+/* hola estos los estilos con hijitos */
+body main section article p{
+    background: blue;
+}
+#article{
+    background: brown;
+    color: gray;
+}
+#cabezera{
+    background: black;
+    color: red;
+}
+.receta{
+    background: pink;
+    color: red;
+}

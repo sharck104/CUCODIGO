@@ -1,0 +1,24 @@
+buildscript {
+    repositories {
+        jcenter()
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.1'
+    }
+
+    project.ext {
+        buildToolsVersion = "28.0.3"
+        minSdkVersion = 14
+        targetSdkVersion = 28
+
+        versionName = "2.0.0-beta01"
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        google()
+    }
+}

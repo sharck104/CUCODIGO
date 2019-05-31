@@ -1,0 +1,203 @@
+#family {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+#idizquierda {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-weight: bold;
+}
+
+.cursiva {
+    font-style: oblique;
+}
+
+.justificado {
+    text-align: justify;
+
+}
+
+
+
+#google-fonts {
+    font-family: 'indie flower', 'Ranga', cursive;
+
+}
+
+@font-face {
+    font-family: 'codigo';
+    src: url("fonts/KaushanScript-Regular.otf");
+
+}
+
+.codigo {
+    font-family: 'codigo';
+    text-align: justify;
+
+}
+
+.color1 {
+    background: red;
+    text-align: center;
+}
+
+.color2 {
+    background: yellow;
+    text-align: center;
+}
+
+.color3 {
+    background: orange;
+    text-align: center;
+}
+
+.color4 {
+    background: green;
+    text-align: center;
+}
+
+.color5 {
+    background: pink;
+    text-align: center;
+}
+
+.color6 {
+    background: blue;
+    text-align: center;
+}
+
+.color7 {
+    background: brown;
+    text-align: center;
+}
+
+.color8 {
+    background: purple;
+    text-align: center;
+}
+
+.color9 {
+    background: skyblue;
+    text-align: center;
+}
+
+.color10 {
+    background: black;
+    text-align: center;
+    color: floralwhite;
+
+}
+.color11 {
+    text-align: center;
+    color: red;
+}
+
+.color12 {
+    text-align: center;
+    color: yellow;
+}
+
+.color13 {
+    text-align: center;
+    color:orange;
+}
+
+.color14 {
+    text-align: center;
+    color:green;
+}
+
+.color15 {
+    text-align: center;
+    color:pink;
+}
+
+.color16 {
+    text-align: center;
+    color: blue;
+}
+
+.color17 {
+    text-align: center;
+    color:brown;
+}
+
+.color18 {
+    text-align: center;
+    color:purple;
+}
+
+.color19 {
+    text-align: center;
+    color: skyblue;
+}
+
+.color20 {
+    text-align: center;
+    color:black;
+
+}
+.negrita {
+    font-weight: bold;
+}
+
+.borde {
+    border: black dashed 3px;
+}
+
+.fuente {
+    font-family: 'ZCOOL KuaiLe', "cursive";
+}
+
+#caja1 {
+    width: 400px;
+}
+
+#fontfimily {
+    /* Recordando que va recoger la 1ra de la izq de la derecha */
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#fontsize {
+    font-size: 20px;
+}
+
+#fontweight {
+    font-weight: bold;
+}
+
+/* me cambia varios parametros en una sola propiedad */
+#font {
+    font: bold 24px arial;
+}
+
+#fontstyle {
+    font-style: italic;
+}
+
+#textindent {
+    text-indent: 20px;
+}
+
+#letterspacing {
+    letter-spacing: 5px;
+}
+
+#wordspacing {
+    word-spacing: 8px;
+}
+
+#textdecoration {
+    text-decoration: underline red;
+}
+
+#lineheight {
+    line-height: 30px;
+}
+
+#font-face {
+    font-family: 'codigo';
+    user-select: none;
+}
