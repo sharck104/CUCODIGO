@@ -1,0 +1,16 @@
+body {
+    background-image: url('imagen/photo-1550537687-c91072c4792d.jpg');
+    background-size: 200px;
+}
+
+#background2 {
+    background-image: url('imagen/descarga.jpg');
+    width: 500px;
+    height: 500px;
+    background-repeat: repeat-y;
+}
+
+#article {
+    background-image: linear-gradient( red, yellow, purple);
+
+}

@@ -1,0 +1,26 @@
+header{
+    border: solid 1px rgb(0,0,0);
+    /* me coloca una sombre en el contenedor */
+    box-shadow: rgb(123,123,123) 15px 15px 15px;
+    background: -webkit-radial-gradient(right,ELLIPSE,transparent,#225498)
+}
+body{
+    background-image: url('imagen/descarga.jpg')
+}
+section{
+    margin-top:10px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 50px;
+    padding: 10px;
+    filter:blur(0.4px);
+    opacity: 0.5;
+}
+.imagen{
+    /* el valor de grayscal va de 0.1 a 1  */
+    /* invert me invierte los 0.1 a 1 */
+    /* brightness me cambiara el barrio de la imagen 0.1 a 10*/
+    /* opacity, transparencia a una imagen de 0.1 a 1 */
+    /* contrast, diferencia entre colores mas oscuros y brillan */
+    filter:saturate(5);
+}
