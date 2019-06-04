@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* cuando el div se ajusta a su propio contenido la propiedad display: inline; */
+
+header {
+    border: 1px solid red;
+}
+
+span {
+    display: block;
+}
+
+
+/* display: block va a ser predeterminado tanto para header, nav, section, article, main, aside footer, div */
+
+
+/* inline-block pondra los elementos  en linea segun el tamaño que tenga */
+
+div {
+    border: 1px solid blue;
+    display: inline-block;
+    width: 50%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+
+/* nav {
+    border: 2px solid gold;
+} */

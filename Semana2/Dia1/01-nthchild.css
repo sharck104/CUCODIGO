@@ -1,0 +1,22 @@
+p:nth-child(2){
+    border: 1px solid tomato;
+}
+/* odd=>impares */
+tr:nth-child(odd){
+    background-color: aquamarine;
+    color: brown;
+}
+/* even=>pares */
+tr:nth-child(even),#primerafila{
+    background-color: burlywood;
+    color: brown;
+}
+p:first-child{
+    font-style: italic;
+}
+p:last-child{
+    color: blue;
+}
+body:not(section){
+    font-size: 30px;
+}

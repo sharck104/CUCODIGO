@@ -1,0 +1,20 @@
+/* slector de etiqueta */
+/* p{} */
+/* ----------------------- */
+/* sector de clase */
+/* .nombre del id */
+/* todos los li's que sean hijos  de ol's en cualquier nivel */
+ol li{
+    border: 1px solid green;
+    box-shadow: 2px 2px 8px black;
+}
+/* todos los li's que sean hijos directos(en 1er nivel) de un ul */
+ul>li{
+    border: 1px solid blue
+}
+#primero, #segundo{
+    font-weight: 700;
+}
+.article,.articulo{
+    border: 1px solid rebeccapurple;
+}
