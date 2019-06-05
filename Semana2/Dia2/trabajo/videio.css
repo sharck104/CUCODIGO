@@ -1,0 +1,82 @@
+#principal{
+    width: 900px;
+    height: 1000px;
+    border: 1px solid black;
+    margin: auto;
+    
+}
+#logo{
+    width: 50%;
+    height: 50%;
+    border: 1px solid green;
+}
+#texto1{
+    font-size: 100%;
+}
+#video{
+    width: 50%;
+    height: 50%;
+    border: 1px solid  rgba(98,125,77,1);
+    float: left;
+}
+#informativo{
+    width: 899px;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid  rgba(98,125,77,1);
+    margin-top: 10px;
+    background:    rgba(98,125,77,1);
+}
+.uno{
+    width: 290px;
+    height: 400px;
+    border: 1px solid  rgba(98,125,77,1);
+    float: left;
+}
+.dos{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 0px;
+}
+.fondo1{
+    background:  rgba(98,125,77,1);
+}
+.image{
+    opacity: 0.20;
+}
+.menu{
+    padding: 0%;
+    width: 600px;
+    height: 40px;
+    border: 1px solid white;
+    margin: auto;
+    
+}
+.menu ul{
+}
+.menu ul li{
+    margin-top: 0px;   
+    list-style: none;
+    float: left;
+    padding: 10px 20px;
+    border: 1px solid black;
+    background: red;
+}
+.uno1{
+    width: 290px;
+    height: 400px;
+    border: 1px solid  rgba(98,125,77,1);
+    float: left;
+    margin-top: 15px;
+    margin-left: 1px;
+}
+.dos2{
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.pegar{
+    margin: 0px;
+    padding: 0px;
+}   
