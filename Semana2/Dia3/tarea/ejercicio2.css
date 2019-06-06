@@ -1,0 +1,114 @@
+/* * {
+    padding: 0%;
+    margin: 0%;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.fondo {
+    width: 100%;
+    background-image: url('./imagenes/fondo.jpg');
+    background-size: 100% 100%;
+}
+
+header {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    border: 1px solid red;
+    text-align:center;
+}
+
+div {
+
+    width: 100%;
+    border: 1px solid red;
+    text-align:center;
+
+
+}
+
+input {} */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+
+    background: #FC5C7D;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6A82FB, #FC5C7D);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    background-size: 100% 100%;
+    text-align: center;
+    height: 89%;
+    width: 100%;
+    /* border: 1px solid red; */
+
+}
+
+h3 {
+    padding-top: 100px;
+    color: white;
+}
+
+.correo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div {
+    text-align: center;
+    height: 3%;
+    width: 100%;
+    /* border: 1px solid red */
+}
+
+header {
+    text-align: right;
+    height: 8%;
+    width: 100%;
+    /* border: 1px solid red; */
+    background: #FC5C7D;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6A82FB, #FC5C7D);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: white;
+
+}
+
+#foto {
+    border-radius: 59%;
+   border: 3px solid white;
+
+}
+
+input {
+    border-radius: 50% 50%;
+    width: 200px;
+    text-align: center;
+
+}
+
+.boton {
+    
+    width: 50px;
+    padding: 0px;
+}
