@@ -1,0 +1,20 @@
+div {
+    width: 200px;
+    height: 200px;
+}
+
+.normal {
+    background-color: red;
+}
+
+.relativo {
+    background-color: yellow;
+}
+
+.absoluto {
+    background-color: blue;
+}
+
+.fixed {
+    background-color: green;
+}
